@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Yorimitsu_Config_Desc -->
+<!-- Author: HaoJu -->
+<!-- DateCreated: 10/12/2018 5:08:17 PM -->
+<GameData>
+
+	<BaseGameText>
+
+		<Row Tag="LOC_CIVILIZATION_FGO_YORIMITSU_MOD_NAME" >
+			<Text>[COLOR_FLOAT_CULTURE]Fate/Grand Order Minamoto no Raikō[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FGO_YORIMITSU_MOD_AUTHOR" >
+			<Text>HaoJun0823,nut9931</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FGO_YORIMITSU_MOD_SPECIAL_THANKS" >
+			<Text>All players, modders and TYPE-MOON.</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FGO_YORIMITSU_MOD_SPECIAL_TEASER" >
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_QUOTE}</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FGO_YORIMITSU_MOD_SPECIAL_DESCRIPTION" >
+			<Text>Support language:English,Simplified Chinese,Traditional Chinese,Korean.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you![NEWLINE]GITHUB:https://github.com/HaoJun0823/Civ6Fate-MinamotoNoYorimitsu
+			</Text>
+		</Row>
+
+	</BaseGameText>
+
+	<LocalizedText>
+
+		<Row Tag="LOC_CIVILIZATION_FGO_YORIMITSU_MOD_NAME" Language="zh_Hans_CN">
+			<Text>[COLOR_FLOAT_CULTURE]Fate/Grand Order 源赖光[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FGO_YORIMITSU_MOD_AUTHOR" Language="zh_Hans_CN">
+			<Text>HaoJun0823,nut9931</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FGO_YORIMITSU_MOD_SPECIAL_THANKS" Language="zh_Hans_CN">
+			<Text>所有玩家，模组制作者以及型月。</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FGO_YORIMITSU_MOD_SPECIAL_TEASER" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_QUOTE}</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FGO_YORIMITSU_MOD_SPECIAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>支持语言：英语，简体中文，繁体中文,韩文。[NEWLINE][NEWLINE]提示：这个角色来自于 TYPE-MOON 旗下的 Fate/Grand Order。[NEWLINE][NEWLINE]如果你发现了任何Bug，请及时告知于我，我会修复它，感谢！[NEWLINE]GITHUB:https://github.com/HaoJun0823/Civ6Fate-MinamotoNoYorimitsu
+			</Text>
+		</Row>
+
+	</LocalizedText>
+
+	<LocalizedText>
+
+		<Row Tag="LOC_CIVILIZATION_FGO_YORIMITSU_MOD_NAME" Language="zh_Hant_HK">
+			<Text>[COLOR_FLOAT_CULTURE]Fate/Grand Order 源賴光[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FGO_YORIMITSU_MOD_AUTHOR" Language="zh_Hant_HK">
+			<Text>HaoJun0823,nut9931</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FGO_YORIMITSU_MOD_SPECIAL_THANKS" Language="zh_Hant_HK">
+			<Text>所有玩家，模組制作者以及型月。</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FGO_YORIMITSU_MOD_SPECIAL_TEASER" Language="zh_Hant_HK">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_QUOTE}</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FGO_YORIMITSU_MOD_SPECIAL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>
+				支持語言：英語，簡體中文，繁體中文，韓語。[NEWLINE][NEWLINE]提示：這個角色來自於 TYPE-MOON 旗下的 Fate/Grand Order。[NEWLINE][NEWLINE]如果你發現了任何Bug，請及時告知於我，我會修復它，感謝！ [NEWLINE]GITHUB:https://github.com/HaoJun0823/Civ6Fate-MinamotoNoYorimitsu
+			</Text>
+		</Row>
+
+	</LocalizedText>
+
+
+	<!--
+	
+	
+	
+		
+		<LocalizedText>
+		<Text id="LOC_CIVILIZATION_FGO_YORIMITSU_MOD_NAME">
+			<en_US>[COLOR_FLOAT_CULTURE]Fate/Grand Order Minamoto no Raikō[ENDCOLOR]</en_US>
+            <de_DE>[COLOR_FLOAT_CULTURE]Fate/Grand Order Minamoto no Raikō[ENDCOLOR]</de_DE>
+            <es_ES>[COLOR_FLOAT_CULTURE]Fate/Grand Order Minamoto no Raikō[ENDCOLOR]</es_ES>
+            <fr_FR>[COLOR_FLOAT_CULTURE]Fate/Grand Order Minamoto no Raikō[ENDCOLOR]</fr_FR>
+            <it_IT>[COLOR_FLOAT_CULTURE]Fate/Grand Order Minamoto no Raikō[ENDCOLOR]</it_IT>
+            <ja_JP>[COLOR_FLOAT_CULTURE]Fate/Grand Order Minamoto no Raikō[ENDCOLOR]</ja_JP>
+            <ko_KR>[COLOR_FLOAT_CULTURE]Fate/Grand Order Minamoto no Raikō[ENDCOLOR]</ko_KR>
+            <pl_PL>[COLOR_FLOAT_CULTURE]Fate/Grand Order Minamoto no Raikō[ENDCOLOR]</pl_PL>
+            <pt_BR>[COLOR_FLOAT_CULTURE]Fate/Grand Order Minamoto no Raikō[ENDCOLOR]</pt_BR>
+            <ru_RU>[COLOR_FLOAT_CULTURE]Fate/Grand Order Minamoto no Raikō[ENDCOLOR]</ru_RU>
+			<zh_Hans_CN>[COLOR_FLOAT_CULTURE]Fate/Grand Order 源赖光[ENDCOLOR]</zh_Hans_CN>
+			<zh_Hant_HK>[COLOR_FLOAT_CULTURE]Fate/Grand Order 源賴光[ENDCOLOR]</zh_Hant_HK>
+		</Text>
+		
+		
+		
+		<Text id="LOC_CIVILIZATION_FGO_YORIMITSU_MOD_AUTHOR">
+			<en_US>Randerion</en_US>
+            <de_DE>Randerion</de_DE>
+            <es_ES>Randerion</es_ES>
+            <fr_FR>Randerion</fr_FR>
+            <it_IT>Randerion</it_IT>
+            <ja_JP>Randerion</ja_JP>
+            <ko_KR>Randerion</ko_KR>
+            <pl_PL>Randerion</pl_PL>
+            <pt_BR>Randerion</pt_BR>
+            <ru_RU>Randerion</ru_RU>
+			<zh_Hans_CN>兰德里奥（Randerion）</zh_Hans_CN>
+			<zh_Hant_HK>蘭德里奧（Randerion）</zh_Hant_HK>
+		</Text>
+		
+		
+		
+		<Text id="LOC_CIVILIZATION_FGO_YORIMITSU_MOD_SPECIAL_THANKS">
+			<en_US>All players, modders and TYPE-MOON.</en_US>
+            <de_DE>All players, modders and TYPE-MOON.</de_DE>
+            <es_ES>All players, modders and TYPE-MOON.</es_ES>
+            <fr_FR>All players, modders and TYPE-MOON.</fr_FR>
+            <it_IT>All players, modders and TYPE-MOON.</it_IT>
+            <ja_JP>All players, modders and TYPE-MOON.</ja_JP>
+            <ko_KR>All players, modders and TYPE-MOON.</ko_KR>
+            <pl_PL>All players, modders and TYPE-MOON.</pl_PL>
+            <pt_BR>All players, modders and TYPE-MOON.</pt_BR>
+            <ru_RU>All players, modders and TYPE-MOON.</ru_RU>
+			<zh_Hans_CN>所有玩家，模组制作者以及型月。</zh_Hans_CN>
+			<zh_Hant_HK>所有玩家，模組製作者以及型月。</zh_Hant_HK>
+		</Text>
+		
+			<Text id="LOC_CIVILIZATION_FGO_YORIMITSU_MOD_SPECIAL_TEASER">
+			<en_US>So... what is the problem with being a mother...?</en_US>
+            <de_DE>So... what is the problem with being a mother...?</de_DE>
+            <es_ES>So... what is the problem with being a mother...?</es_ES>
+            <fr_FR>So... what is the problem with being a mother...?</fr_FR>
+            <it_IT>So... what is the problem with being a mother...?</it_IT>
+            <ja_JP>So... what is the problem with being a mother...?</ja_JP>
+            <ko_KR>So... what is the problem with being a mother...?</ko_KR>
+            <pl_PL>So... what is the problem with being a mother...?</pl_PL>
+            <pt_BR>So... what is the problem with being a mother...?</pt_BR>
+            <ru_RU>So... what is the problem with being a mother...?</ru_RU>
+			<zh_Hans_CN>啊…妈妈哪里做的不对了呢…?</zh_Hans_CN>
+			<zh_Hant_HK>啊…媽媽哪裏做的不對了呢…?</zh_Hant_HK>
+		</Text>	
+		
+
+		<Text id="LOC_CIVILIZATION_FGO_YORIMITSU_MOD_SPECIAL_DESCRIPTION">
+			<en_US>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</en_US>
+            <de_DE>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</de_DE>
+            <es_ES>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</es_ES>
+            <fr_FR>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</fr_FR>
+            <it_IT>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</it_IT>
+            <ja_JP>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</ja_JP>
+            <ko_KR>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</ko_KR>
+            <pl_PL>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</pl_PL>
+            <pt_BR>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</pt_BR>
+            <ru_RU>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Grand Order.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</ru_RU>
+			<zh_Hans_CN>支持语言：英语，简体中文，繁体中文。[NEWLINE][NEWLINE]提示：这个角色来自于 TYPE-MOON 旗下的 Fate/Grand Order。[NEWLINE][NEWLINE]如果你发现了任何Bug，请及时告知于我，我会修复它，感谢！</zh_Hans_CN>
+			<zh_Hant_HK>支持語言：英語，簡體中文，繁體中文。[NEWLINE][NEWLINE]提示：這個角色來自於 TYPE-MOON 旗下的 Fate/Grand Order。[NEWLINE][NEWLINE]如果你發現了任何Bug，請及時告知於我，我會修復它，感謝！</zh_Hant_HK>
+		</Text>		
+		
+  	</LocalizedText>
+	
+	
+	
+	-->
+</GameData>

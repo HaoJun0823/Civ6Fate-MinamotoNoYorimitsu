@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Yorimitsu_Config -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 10/12/2018 1:01:30 PM -->
+<GameData>
+	<Players>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<LeaderType>LEADER_FGO_YORIMITSU</LeaderType>
+
+			<!-- Config Text -->
+			<CivilizationName>LOC_CIVILIZATION_JAPAN_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_JAPAN_FGO_YORIMITSU</CivilizationIcon>
+
+			<!-- Config Text -->
+			<LeaderName>LOC_LEADER_FGO_YORIMITSU_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_FGO_YORIMITSU</LeaderIcon>
+
+			<!-- Mod Text -->
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_JAPAN_FGO_YORIMITSU</CivilizationAbilityIcon>
+
+			<!-- Config Text-->
+			<LeaderAbilityName>LOC_LEADER_ABILITY_FGO_YORIMITSU_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_LEADER_ABILITY_FGO_YORIMITSU_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_FGO_YORIMITSU</LeaderAbilityIcon>
+
+			<Portrait>LEADER_FGO_YORIMITSU_NEUTRAL</Portrait>
+
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<LeaderType>LEADER_FGO_YORIMITSU</LeaderType>
+
+			<!-- Config Text -->
+			<CivilizationName>LOC_CIVILIZATION_JAPAN_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_JAPAN_FGO_YORIMITSU</CivilizationIcon>
+
+			<!-- Config Text -->
+			<LeaderName>LOC_LEADER_FGO_YORIMITSU_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_FGO_YORIMITSU</LeaderIcon>
+
+			<!-- Mod Text -->
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_JAPAN_FGO_YORIMITSU</CivilizationAbilityIcon>
+
+			<!-- Config Text-->
+			<LeaderAbilityName>LOC_LEADER_ABILITY_FGO_YORIMITSU_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_LEADER_ABILITY_FGO_YORIMITSU_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_FGO_YORIMITSU</LeaderAbilityIcon>
+
+			<Portrait>LEADER_FGO_YORIMITSU_NEUTRAL</Portrait>
+
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<LeaderType>LEADER_FGO_YORIMITSU</LeaderType>
+
+			<!-- Config Text -->
+			<CivilizationName>LOC_CIVILIZATION_JAPAN_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_JAPAN_FGO_YORIMITSU</CivilizationIcon>
+
+			<!-- Config Text -->
+			<LeaderName>LOC_LEADER_FGO_YORIMITSU_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_FGO_YORIMITSU</LeaderIcon>
+
+			<!-- Mod Text -->
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_JAPAN_FGO_YORIMITSU</CivilizationAbilityIcon>
+
+			<!-- Config Text-->
+			<LeaderAbilityName>LOC_LEADER_ABILITY_FGO_YORIMITSU_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_LEADER_ABILITY_FGO_YORIMITSU_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_FGO_YORIMITSU</LeaderAbilityIcon>
+
+			<Portrait>LEADER_FGO_YORIMITSU_NEUTRAL</Portrait>
+
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<LeaderType>LEADER_FGO_YORIMITSU</LeaderType>
+			<Type>UNIT_JAPANESE_SAMURAI</Type>
+			<Name>LOC_UNIT_JAPANESE_SAMURAI_NAME</Name>
+			<Description>LOC_UNIT_JAPANESE_SAMURAI_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_JAPANESE_SAMURAI</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<LeaderType>LEADER_FGO_YORIMITSU</LeaderType>
+			<Type>BUILDING_ELECTRONICS_FACTORY</Type>
+			<Name>LOC_BUILDING_ELECTRONICS_FACTORY_NAME</Name>
+			<Description>LOC_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_ELECTRONICS_FACTORY</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<LeaderType>LEADER_FGO_YORIMITSU</LeaderType>
+			<Type>UNIT_JAPANESE_SAMURAI</Type>
+			<Name>LOC_UNIT_JAPANESE_SAMURAI_NAME</Name>
+			<Description>LOC_UNIT_JAPANESE_SAMURAI_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_JAPANESE_SAMURAI</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<LeaderType>LEADER_FGO_YORIMITSU</LeaderType>
+			<Type>BUILDING_ELECTRONICS_FACTORY</Type>
+			<Name>LOC_BUILDING_ELECTRONICS_FACTORY_NAME</Name>
+			<Description>LOC_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_ELECTRONICS_FACTORY</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<LeaderType>LEADER_FGO_YORIMITSU</LeaderType>
+			<Type>UNIT_JAPANESE_SAMURAI</Type>
+			<Name>LOC_UNIT_JAPANESE_SAMURAI_NAME</Name>
+			<Description>LOC_UNIT_JAPANESE_SAMURAI_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_JAPANESE_SAMURAI</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<LeaderType>LEADER_FGO_YORIMITSU</LeaderType>
+			<Type>BUILDING_ELECTRONICS_FACTORY</Type>
+			<Name>LOC_BUILDING_ELECTRONICS_FACTORY_NAME</Name>
+			<Description>LOC_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_ELECTRONICS_FACTORY</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Yorimitsu_Icon -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 10/12/2018 1:23:16 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_FGO_YORIMITSU_ATLAS" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FGO_YORIMITSU_32"/>
+		<Row Name="ICON_FGO_YORIMITSU_ATLAS" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FGO_YORIMITSU_45"/>
+		<Row Name="ICON_FGO_YORIMITSU_ATLAS" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FGO_YORIMITSU_48"/>
+		<Row Name="ICON_FGO_YORIMITSU_ATLAS" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FGO_YORIMITSU_50"/>
+		<Row Name="ICON_FGO_YORIMITSU_ATLAS" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FGO_YORIMITSU_55"/>
+		<Row Name="ICON_FGO_YORIMITSU_ATLAS" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FGO_YORIMITSU_64"/>
+		<Row Name="ICON_FGO_YORIMITSU_ATLAS" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FGO_YORIMITSU_80"/>
+		<Row Name="ICON_FGO_YORIMITSU_ATLAS" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FGO_YORIMITSU_256"/>
+
+		<Row Name="ICON_FGO_YORIMITSU_CIV" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FGO_YORIMITSU_CIV"/>
+
+
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_FGO_YORIMITSU" Atlas="ICON_FGO_YORIMITSU_ATLAS" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_JAPAN_FGO_YORIMITSU"      Atlas="ICON_FGO_YORIMITSU_CIV" Index="0"/>
+
+	</IconDefinitions>
+
+</GameData>

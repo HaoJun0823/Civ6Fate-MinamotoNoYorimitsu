@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Yorimitsu_Game_Lang -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 10/12/2018 5:13:22 PM -->
+<GameData>
+
+	<BaseGameText>
+
+		<Row Tag="LOC_LEADER_FGO_YORIMITSU_QUOTE" >
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_QUOTE}</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_FGO_YORIMITSU" >
+			<Text>A person from the 10th~11th Century.Born as the eldest son of the Minamoto family, he is the founder of Settsu Genji-line and a person who contributed for the advancement of the Seiwa Genji as a whole.Also, the strongest mystery-slayer of the Heian period who destroyed many apparitions such as "Shuten Douji of Mt. Ooe", the "Oogumo from the imperial capital" and "Asakura Temple's Gyuuki".Naturally, a male in historical fact. As for the reason why she is a woman, it seems to be related to the secret of her birth but...?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>Great~ Where are we going today?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>Mom doesn't allow you to do this~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>Want to form a deep friendship with me like the Yorimitsu Big Four?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>Okay~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>Let's talk about it next time~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>Oh... there are always some small things that are self-defeating, killing you~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>You bullied my children? Let's die!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>I will be... so shameful!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>Uh... this is over...have...?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>Is this for me? I really like your gift!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>I don’t want to leave things for people.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>Do you want to accept a deep maternal love?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>Uh... my child... why... betray my mother...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>You are not allowed to bully my children! (Denounces You)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>Hello~ I am the source of Laiguang~ Have you seen a person named Sakata Kintoki?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>This is my home~ please don't be shy~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>Today is also very obedient ~ this is a good boy!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>Of course~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>good~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_FGO_YORIMITSU_REASON_ANY" >
+			<Text>(Minamoto no Raikō seems to have increased your affection for you.)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>bad……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_FGO_YORIMITSU_REASON_ANY" >
+			<Text>(Minamoto no Raikō seems to have decreased your affection for you.)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>Want to go to the playground with me?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>Fighting is such a messy thing~ Is it better to love like a mother and child?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>I choose to refuse it~ the bad boy should be punished!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>Hey... Don't attack mom again!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>ok~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>This time is not good~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>My child seems to be on your side, can you let me go?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>Allah... Does anyone want to live?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FGO_YORIMITSU_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_FGO_YORIMITSU_ANY" >
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FGO_YORIMITSU_ANY}</Text>
+		</Row>
+
+
+
+
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_TITLE" >
+			<Text>Minamoto no Raikō</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_SUBTITLE" >
+			<Text>The founder of Settsu Genji-line </Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_QUOTE" >
+			<Text>So... what is the problem with being a mother...?</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_CHAPTER_HISTORY_PARA_1" >
+			<Text>While a cool-headed warrior, she is a beautiful woman who possesses overflowing tolerance. Truly, a personification of maternal love.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_CHAPTER_CAPSULE_BODY" >
+			<Text>Each city-state will provide her with a large amount of faith, and she can use these things to buy military units.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_CHAPTER_DETAILED_BODY" >
+			<Text>By means of diplomatic or religious means, the value of the faith is obtained and used to purchase units to win military victories.</Text>
+		</Row>
+
+
+	</BaseGameText>
+
+
+	<LocalizedText>
+
+		<Row Tag="LOC_LEADER_FGO_YORIMITSU_QUOTE" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_QUOTE}</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_FGO_YORIMITSU" Language="zh_Hans_CN">
+			<Text>十～十一世纪的人物，作为源氏的嫡子诞生。是摄津源氏之祖，为清和源氏全体的发展做出贡献的人物。也是讨伐了「大江山酒吞童子」「京都大蜘蛛」「浅草寺牛鬼」等等诸多妖怪，平安时代最强的秘杀者。当然，史实中他是男性。如今作为女性现身的理由，似乎和她的出生的秘密有关……？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>太棒了~今天我们去哪里？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>妈妈不允许哦~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>想要和我结下如同四大天王那般的深厚友谊吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>好~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>下次吧再说吧~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>哎呀……总是有一些自不量力的小东西呢，做掉你哦~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>你竟然欺负我的孩子们？受死吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>我竟然会……好丢人！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>唔……这就结束……了……吗……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>这是给我的吗？我很喜欢你的礼物！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>闲杂人物的东西我就不要了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>想不想要接受来自深沉的母爱？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>哎……我的孩子……为什么……要背叛妈妈……呜呜呜呜……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>不准你欺负我的孩子们！（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>你好~我是源赖光~你有没有看到一个叫做坂田金时的人？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>这是我的家~请不要害羞哦~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>今天也很听话呢~这才是好孩子！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>当然啦~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>乖~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_FGO_YORIMITSU_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（源赖光似乎对你的好感度增加了）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>呜……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_FGO_YORIMITSU_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（源赖光对你的好感度减少了）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>想要和我一起去游乐场吗~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>战斗就是如此混乱的事物呢~不如像母子一样恩爱哦？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>我选择拒绝哦~坏孩子就该惩罚！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>呜呜呜呜……不要再打妈妈了！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>好的~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>这个时间可不好哦~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>我的孩子好像你那边了，可不可以让我过去？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>阿拉……有人不想活了吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FGO_YORIMITSU_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FGO_YORIMITSU_ANY}</Text>
+		</Row>
+
+
+
+
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_TITLE" Language="zh_Hans_CN">
+			<Text>源赖光</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_SUBTITLE" Language="zh_Hans_CN">
+			<Text>摄津源氏之祖</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_QUOTE" Language="zh_Hans_CN">
+			<Text>啊…妈妈哪里做的不对了呢…?</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>身为冷彻的武人的同时，也是包容力满点的美人。简直就是母爱的化身。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>每个城邦都会提供给她大量的信仰值，她也可以用这些东西购买军事单位。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>通过外交或者宗教手段，获得信仰值，用于购买单位来赢得军事胜利。</Text>
+		</Row>
+
+
+	</LocalizedText>
+	<LocalizedText>
+
+
+		<Row Tag="LOC_LEADER_FGO_YORIMITSU_QUOTE" Language="zh_hant_HK">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_QUOTE}</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_FGO_YORIMITSU" Language="zh_hant_HK">
+			<Text>十～十壹世紀的人物，作為源氏的嫡子誕生。是攝津源氏之祖，為清和源氏全體的發展做出貢獻的人物。也是討伐了「大江山酒吞童子」「京都大蜘蛛」「淺草寺牛鬼」等等諸多妖怪，平安時代最強的秘殺者。當然，史實中他是男性。如今作為女性現身的理由，似乎和她的出生的秘密有關……？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>太棒了~今天我們去哪裏？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>媽媽不允許哦~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>想要和我結下如同四大天王那般的深厚友誼嗎？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>好~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>下次吧再說吧~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>哎呀……總是有壹些自不量力的小東西呢，做掉妳哦~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>妳竟然欺負我的孩子們？受死吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>我竟然會……好丟人！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>唔……這就結束……了……嗎……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>這是給我的嗎？我很喜歡妳的禮物！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>閑雜人物的東西我就不要了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>想不想要接受來自深沈的母愛？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>哎……我的孩子……為什麽……要背叛媽媽……嗚嗚嗚嗚……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>不準妳欺負我的孩子們！（譴責妳）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>妳好~我是源賴光~妳有沒有看到壹個叫做阪田金時的人？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>這是我的家~請不要害羞哦~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>今天也很聽話呢~這才是好孩子！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>當然啦~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>乖~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_FGO_YORIMITSU_REASON_ANY" Language="zh_hant_HK">
+			<Text>（源賴光似乎對妳的好感度增加了）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>嗚……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_FGO_YORIMITSU_REASON_ANY" Language="zh_hant_HK">
+			<Text>（源賴光對妳的好感度減少了）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>想要和我壹起去遊樂場嗎~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>戰鬥就是如此混亂的事物呢~不如像母子壹樣恩愛哦？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>我選擇拒絕哦~壞孩子就該懲罰！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>嗚嗚嗚嗚……不要再打媽媽了！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>好的~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>這個時間可不好哦~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>我的孩子好像妳那邊了，可不可以讓我過去？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>阿拉……有人不想活了嗎？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FGO_YORIMITSU_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="zh_hant_HK">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FGO_YORIMITSU_ANY}</Text>
+		</Row>
+
+
+
+
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_TITLE" Language="zh_hant_HK">
+			<Text>源賴光</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_SUBTITLE" Language="zh_hant_HK">
+			<Text>攝津源氏之祖</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_QUOTE" Language="zh_hant_HK">
+			<Text>啊…媽媽哪裏做的不對了呢…?</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_CHAPTER_HISTORY_PARA_1" Language="zh_hant_HK">
+			<Text>身為冷徹的武人的同時，也是包容力滿點的美人。簡直就是母愛的化身。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_CHAPTER_CAPSULE_BODY" Language="zh_hant_HK">
+			<Text>每個城邦都會提供給她大量的信仰值，她也可以用這些東西購買軍事單位。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_CHAPTER_DETAILED_BODY" Language="zh_hant_HK">
+			<Text>通過外交或者宗教手段，獲得信仰值，用於購買單位來贏得軍事勝利。</Text>
+		</Row>
+
+
+	</LocalizedText>
+	<LocalizedText>
+
+		<Row Tag="LOC_TRAIT_FGO_YORIMITSU_UNITS_ATTACK_DESCRIPTION" >
+			<Text>+5 The Yorimitsu Big Four</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_FGO_YORIMITSU_UNITS_ATTACK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+5 赖光四天王</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_FGO_YORIMITSU_UNITS_ATTACK_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+5 賴光四天王</Text>
+		</Row>
+
+
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_FGO_YORIMITSU_MOTHER_DECLARED_FRIEND" >
+			<Text>You and Minamoto no Raikō have become friends.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_FGO_YORIMITSU_MOTHER_DENOUNCED_FRIEND" >
+			<Text>You condemned the friend of Minamoto no Raikō.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_FGO_YORIMITSU_ATTACKED" >
+			<Text>You attacked the children of the source Minamoto no Raikō (city-state).</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_FGO_YORIMITSU_PEACEFUL" >
+			<Text>You are trying to win over Minamoto no Raikō's children (city-state).</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_FGO_YORIMITSU_MOTHER" >
+			<Text>Kind mother</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_FGO_YORIMITSU_MOTHER_DESCRIPTION" >
+			<Text>Like to declare friendship, hate condemnation and other civilizations to attack children (city-states) or cooperate with them.</Text>
+		</Row>
+		
+		
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_FGO_YORIMITSU_MOTHER_DECLARED_FRIEND" Language="zh_Hans_CN">
+			<Text>你和源赖光成为了朋友。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_FGO_YORIMITSU_MOTHER_DENOUNCED_FRIEND" Language="zh_Hans_CN">
+			<Text>你谴责了源赖光的朋友。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_FGO_YORIMITSU_ATTACKED" Language="zh_Hans_CN">
+			<Text>你攻击了源赖光的孩子们（城邦）。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_FGO_YORIMITSU_PEACEFUL" Language="zh_Hans_CN">
+			<Text>你试图拉拢源赖光的孩子们（城邦）。</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_FGO_YORIMITSU_MOTHER" Language="zh_Hans_CN">
+			<Text>慈母情深</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_FGO_YORIMITSU_MOTHER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢宣布友好，讨厌谴责以及其他文明攻击孩子（城邦）或者与他们合作。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_FGO_YORIMITSU_MOTHER_DECLARED_FRIEND" Language="zh_Hant_HK">
+			<Text>你和源賴光成為了朋友。 </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_FGO_YORIMITSU_MOTHER_DENOUNCED_FRIEND" Language="zh_Hant_HK">
+			<Text>你譴責了源賴光的朋友。 </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_FGO_YORIMITSU_ATTACKED" Language="zh_Hant_HK">
+			<Text>你攻擊了源賴光的孩子們（城邦）。 </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_FGO_YORIMITSU_PEACEFUL" Language="zh_Hant_HK">
+			<Text>你試圖拉攏源賴光的孩子們（城邦）。 </Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_FGO_YORIMITSU_MOTHER" Language="zh_Hant_HK">
+			<Text>慈母情深</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_FGO_YORIMITSU_MOTHER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>喜歡宣布友好，討厭譴責以及其他文明攻擊孩子（城邦）或者與他們合作。 </Text>
+		</Row>
+
+	</LocalizedText>
+
+
+	<LocalizedText>
+
+		<Row Tag="LOC_LEADER_FGO_YORIMITSU_QUOTE" Language="ko_KR">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_QUOTE}</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_FGO_YORIMITSU" Language="ko_KR">
+			<Text>10~11세기의 인물. 겐지의 적자로 태어나, 셋츠 겐지의 조상으로서 세이와 겐지 전체의 발전에 공헌한 인물.「오오에산의 슈텐도지」 「쿄의 오오구모」 「아사쿠사데라의 규키」 등등, 수많은 괴이를 퇴치해온 헤이안시대 최강의 신비살해자이기도 하다. 물론, 사실(史実)에서는 남자. 그녀가 여성인 이유는, 그 출생의 비밀에 연유되어있다고 할까......? 부하인 요리미츠 사천왕──── 와타나베노 츠나, 사카타노 킨토키, 우라베노 스에타케, 우스이 사다미츠를 이끌고 수도의 안녕을 수호해나갔다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>좋습니다. 물론 제 아이들에게도 잘 대해주셔야 합니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>아이들을 지키는 어머니로서 그 부탁은 받아드릴수 없네요. 지도자님.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>제 아이들을 잘 돌봐주시는 모습을보고 지도자님을 믿어도 되겠다는 확신이 들었습니다. 이제부터 서로 함께 나아가지 않겠습니까?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>좋습니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>지금은 안될거 같아요.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>언제나 그럴싸한 이유를 명분삼아서 제 아이들을 해코지하는 어리석은 자들이 있단말이죠. 마치 지도자님, 당신처럼요.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>당신같은 자가 계속 존재한다면 제 아이들의 미래는 언제든지 위협받을 것입니다. 그러니 신속하게 토벌해드리도록 하겠습니다!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>당신같은 무뢰배로부터 아이들을 지켜내지 못하다니... 어머니의 역할을 다하지 못했군요.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>당신같은 무뢰배로부터 아이들을 지켜내지 못하다니... 어머니의 역할을 다하지 못했군요.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>저희에게 보내는 선물인가요? 감사히 받도록 하겠습니다. 물론 지도자님의 사절단에게도 최고의 예우를 갖춰드렸답니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>어떤 의도를 가지고있는지 모르는 자를 함부로 들일수는 없습니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>지도자님께 사절단을 보냈습니다. 함께 보낸 킨츠바야키와 차를 즐기시면서 그들을 환대해주길 바랍니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>저는 당신같은 무뢰배로부터 제 아이들을 지키기 위해서라면 수단과 방법을 가리지 않을것입니다!!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>저는 당신같은 무뢰배로부터 제 아이들을 지키기 위해서라면 수단과 방법을 가리지 않을것입니다!! (당신을 공개비난합니다.)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>만나서 반갑습니다, 지도자님. 저는 미나모토노 라이코라 합니다. 지도자님은 제 아이들에게 위협이되는 자가 아니였으면 하는군요.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>지도자님께서도 먼길을 오시느라 수고하셨을테니 우리 나라에 들러서 잠시 쉬었다 가시는건 어떠신가요?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>만나서 반갑습니다, 지도자님. 저는 미나모토노 라이코라 합니다. 지도자님은 제 아이들에게 위협이되는 자가 아니였으면 하는군요.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>만나서 반갑습니다, 지도자님.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>지도자님께서도 아이들이 스스로 성장하는 모습을 지켜보는것이 얼마나 행복한 일인지를 아시는군요.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_FGO_YORIMITSU_REASON_ANY" Language="ko_KR">
+			<Text>(당신은 주요문명이나 도시국가와 평화를 유지하고 있습니다.)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>경고합니다. 더는 제 아이들의 안전을 위협하지 말아주십시오!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_FGO_YORIMITSU_REASON_ANY" Language="ko_KR">
+			<Text>(당신은 주요문명이나 도시국가를 공격해서 평화를 깨뜨렸습니다.)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>제 아이들도 이제 지도자님을 부모처럼 따르는걸 보아하니 이제 서로 친구이자 아이들의 부모로써 함께 나아가는게 좋아보입니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>이제 제 아이들의 안전을 위협하지 않겠다는 맹세를 받아냈으니 이만 물러가도록 하겠습니다. 하지만 그대가 약속을 지키는지 항상 주시할겁니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>제 아이들을 안전을 위협하는 자들과 절대 협상하지 않습니다!!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>더는 제 아이들을 위험에 빠트릴 수 없으니 여기서 이만 전쟁을 끝내도록하죠.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>우리나라를 통과하는것을 허락합니다. 대신 가는길에 제 아이들을 만난다면 그 아이들에게 잘해주세요.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>아직은 허락할 수 없습니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>제 아이들이 지도자님의 나라에 한번 가보고 싶다고하네요. 제 아이들에게 국경을 개방해주실수 있으실까요?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>이 병력들은 뭐죠? 제 아이들이 불안해하고 있으니 당장 철수시키도록 하세요!!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_FGO_YORIMITSU_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_FGO_YORIMITSU_ANY" Language="ko_KR">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FGO_YORIMITSU_ANY}</Text>
+		</Row>
+
+
+
+
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_TITLE" Language="ko_KR">
+			<Text>미나모토노 라이코</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_SUBTITLE" Language="ko_KR">
+			<Text>셋츠 겐지의 조상 </Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_YORIMITSU_QUOTE" Language="ko_KR">
+			<Text>아아…… 어머니의 어디가 나쁜것입니까……?</Text>
+		</Row>
+
+	</LocalizedText>
+	</GameData>

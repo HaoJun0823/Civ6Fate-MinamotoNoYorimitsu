@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Yorimitsu_Leader -->
+<!-- Author: HaoJu -->
+<!-- DateCreated: 10/12/2018 12:33:26 PM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_FGO_YORIMITSU" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_FGO_YORIMITSU" Kind="KIND_TRAIT"/>
+	</Types>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_JAPAN" LeaderType="LEADER_FGO_YORIMITSU" CapitalName="LOC_CITY_NAME_KYOTO"/>
+	</CivilizationLeaders>
+	<Leaders>
+		<Row LeaderType="LEADER_FGO_YORIMITSU" NAME="LOC_LEADER_FGO_YORIMITSU_NAME" InheritFrom="LEADER_DEFAULT" Sex="Female" />
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_FGO_YORIMITSU" Quote="LOC_LEADER_FGO_YORIMITSU_QUOTE"/>
+	</LeaderQuotes>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_FGO_YORIMITSU" TraitType="TRAIT_FGO_YORIMITSU"/>
+	</LeaderTraits>
+
+
+	<FavoredReligions>
+		<Row LeaderType="LEADER_FGO_YORIMITSU" ReligionType="RELIGION_SHINTO"/>
+	</FavoredReligions>
+
+	<Traits>
+		<Row TraitType="TRAIT_FGO_YORIMITSU" NAME="LOC_LEADER_ABILITY_FGO_YORIMITSU_NAME" Description="LOC_LEADER_ABILITY_FGO_YORIMITSU_DESCRIPTION"/>
+	</Traits>
+	<!--
+	<ExcludedGreatPersonClasses>
+		<Row GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" TraitType="TRAIT_FGO_YORIMITSU"/>
+	</ExcludedGreatPersonClasses>
+	<ExcludedDistricts>
+		<Row DistrictType="DISTRICT_HOLY_SITE" TraitType="TRAIT_FGO_YORIMITSU"/>
+	</ExcludedDistricts>
+	-->
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_FGO_YORIMITSU" ModifierId="TRAIT_FGO_YORIMITSU_CITY_STATE_FAITH"/>
+		<Row TraitType="TRAIT_FGO_YORIMITSU" ModifierId="TRAIT_FGO_YORIMITSU_UNITS_ATTACK"/>
+		<Row TraitType="TRAIT_FGO_YORIMITSU" ModifierId="GOV_FAITH_PURCHASE_RECON_NO_DLC_SUPPORTED"/>
+		<Row TraitType="TRAIT_FGO_YORIMITSU" ModifierId="GOV_FAITH_PURCHASE_MELEE_NO_DLC_SUPPORTED"/>
+		<Row TraitType="TRAIT_FGO_YORIMITSU" ModifierId="GOV_FAITH_PURCHASE_RANGED_NO_DLC_SUPPORTED"/>
+		<Row TraitType="TRAIT_FGO_YORIMITSU" ModifierId="GOV_FAITH_PURCHASE_SIEGE_NO_DLC_SUPPORTED"/>
+		<Row TraitType="TRAIT_FGO_YORIMITSU" ModifierId="GOV_FAITH_PURCHASE_HEAVY_CAVALRY_NO_DLC_SUPPORTED"/>
+		<Row TraitType="TRAIT_FGO_YORIMITSU" ModifierId="GOV_FAITH_PURCHASE_LIGHT_CAVALRY_NO_DLC_SUPPORTED"/>
+		<Row TraitType="TRAIT_FGO_YORIMITSU" ModifierId="GOV_FAITH_PURCHASE_RANGED_CAVALRY_NO_DLC_SUPPORTED"/>
+		<Row TraitType="TRAIT_FGO_YORIMITSU" ModifierId="GOV_FAITH_PURCHASE_ANTI_CAVALRY_NO_DLC_SUPPORTED"/>
+		<Row TraitType="TRAIT_FGO_YORIMITSU" ModifierId="GOV_FAITH_PURCHASE_HEAVY_CHARIOT_NO_DLC_SUPPORTED"/>
+		<Row TraitType="TRAIT_FGO_YORIMITSU" ModifierId="GOV_FAITH_PURCHASE_LIGHT_CHARIOT_NO_DLC_SUPPORTED"/>
+		<Row TraitType="TRAIT_FGO_YORIMITSU" ModifierId="TRAIT_NAVAL_MELEE_FAITH_YORIMITSU_NO_DLC_SUPPORTED"/>
+		<Row TraitType="TRAIT_FGO_YORIMITSU" ModifierId="TRAIT_NAVAL_RANGED_FAITH_YORIMITSU_NO_DLC_SUPPORTED"/>
+		<Row TraitType="TRAIT_FGO_YORIMITSU" ModifierId="TRAIT_NAVAL_RAIDER_FAITH_YORIMITSU_NO_DLC_SUPPORTED"/>
+		<Row TraitType="TRAIT_FGO_YORIMITSU" ModifierId="TRAIT_NAVAL_CARRIER_FAITH_YORIMITSU_NO_DLC_SUPPORTED"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_RECON_NO_DLC_SUPPORTED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_MELEE_NO_DLC_SUPPORTED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_RANGED_NO_DLC_SUPPORTED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_SIEGE_NO_DLC_SUPPORTED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_HEAVY_CAVALRY_NO_DLC_SUPPORTED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_LIGHT_CAVALRY_NO_DLC_SUPPORTED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_RANGED_CAVALRY_NO_DLC_SUPPORTED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_ANTI_CAVALRY_NO_DLC_SUPPORTED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_HEAVY_CHARIOT_NO_DLC_SUPPORTED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_LIGHT_CHARIOT_NO_DLC_SUPPORTED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NAVAL_MELEE_FAITH_YORIMITSU_NO_DLC_SUPPORTED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NAVAL_RANGED_FAITH_YORIMITSU_NO_DLC_SUPPORTED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NAVAL_RAIDER_FAITH_YORIMITSU_NO_DLC_SUPPORTED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NAVAL_CARRIER_FAITH_YORIMITSU_NO_DLC_SUPPORTED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FGO_YORIMITSU_UNITS_ATTACK</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>YORIMITSU_UNIT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FGO_YORIMITSU_CITY_STATE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_MODIFIER_PER_TRIBUTARY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierStrings>
+
+		<Row ModifierId="TRAIT_FGO_YORIMITSU_UNITS_ATTACK" Context="Preview" Text="LOC_TRAIT_FGO_YORIMITSU_UNITS_ATTACK_DESCRIPTION"/>
+
+	</ModifierStrings>
+	<ModifierArguments>
+		<Row>
+		<ModifierId>GOV_FAITH_PURCHASE_RECON_NO_DLC_SUPPORTED</ModifierId>
+		<Name>Tag</Name>
+		<Value>CLASS_RECON</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_MELEE_NO_DLC_SUPPORTED</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_RANGED_NO_DLC_SUPPORTED</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_SIEGE_NO_DLC_SUPPORTED</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_SIEGE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_HEAVY_CAVALRY_NO_DLC_SUPPORTED</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_HEAVY_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_LIGHT_CAVALRY_NO_DLC_SUPPORTED</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_LIGHT_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_RANGED_CAVALRY_NO_DLC_SUPPORTED</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_RANGED_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_ANTI_CAVALRY_NO_DLC_SUPPORTED</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_ANTI_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_HEAVY_CHARIOT_NO_DLC_SUPPORTED</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_HEAVY_CHARIOT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOV_FAITH_PURCHASE_LIGHT_CHARIOT_NO_DLC_SUPPORTED</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_LIGHT_CHARIOT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NAVAL_MELEE_FAITH_YORIMITSU_NO_DLC_SUPPORTED</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NAVAL_RANGED_FAITH_YORIMITSU_NO_DLC_SUPPORTED</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NAVAL_RAIDER_FAITH_YORIMITSU_NO_DLC_SUPPORTED</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_RAIDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NAVAL_CARRIER_FAITH_YORIMITSU_NO_DLC_SUPPORTED</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_CARRIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FGO_YORIMITSU_UNITS_ATTACK</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FGO_YORIMITSU_CITY_STATE_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FGO_YORIMITSU_CITY_STATE_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
+
+	<Types>
+		<Row Type="TRAIT_AGENDA_FGO_YORIMITSU_MOTHER" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Traits>
+		<Row TraitType="TRAIT_AGENDA_FGO_YORIMITSU_MOTHER" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+	</Traits>
+
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_FGO_YORIMITSU_MOTHER" TraitType="TRAIT_AGENDA_FGO_YORIMITSU_MOTHER"/>
+		<Row AgendaType="AGENDA_FGO_YORIMITSU_MOTHER" TraitType="TRAIT_AGENDA_PREFER_HAPPINESS"/>
+	</AgendaTraits>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_FGO_YORIMITSU_MOTHER" ModifierId="AGENDA_FGO_YORIMITSU_MOTHER_FRIEND"/>
+		<Row TraitType="TRAIT_AGENDA_FGO_YORIMITSU_MOTHER" ModifierId="AGENDA_FGO_YORIMITSU_MOTHER_DENOUNCED_FRIEND"/>
+		<Row TraitType="TRAIT_AGENDA_FGO_YORIMITSU_MOTHER" ModifierId="AGENDA_CONTINENT_FGO_YORIMITSU_MOTHER_ATTACKED"/>
+		<Row TraitType="TRAIT_AGENDA_FGO_YORIMITSU_MOTHER" ModifierId="AGENDA_CONTINENT_FGO_YORIMITSU_MOTHER_PEACEFUL"/>
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>AGENDA_FGO_YORIMITSU_MOTHER_FRIEND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_DECLARED_FRIEND</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_YORIMITSU_MOTHER_DENOUNCED_FRIEND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_FRIEND_DENOUNCED</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CONTINENT_FGO_YORIMITSU_MOTHER_ATTACKED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ATTACKED_CONTINENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CONTINENT_FGO_YORIMITSU_MOTHER_PEACEFUL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_PEACEFUL_ON_CONTINENT</SubjectRequirementSetId>
+		</Row>
+		
+		
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>AGENDA_FGO_YORIMITSU_MOTHER_FRIEND</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_YORIMITSU_MOTHER_FRIEND</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_YORIMITSU_MOTHER_FRIEND</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_YORIMITSU_MOTHER_FRIEND</ModifierId>
+			<Name>MessageThrottle</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_YORIMITSU_MOTHER_FRIEND</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_FGO_YORIMITSU_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_YORIMITSU_MOTHER_FRIEND</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_AGENDA_FGO_YORIMITSU_MOTHER_DECLARED_FRIEND</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>AGENDA_FGO_YORIMITSU_MOTHER_DENOUNCED_FRIEND</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_YORIMITSU_MOTHER_DENOUNCED_FRIEND</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_YORIMITSU_MOTHER_DENOUNCED_FRIEND</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-4</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_YORIMITSU_MOTHER_DENOUNCED_FRIEND</ModifierId>
+			<Name>MessageThrottle</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_YORIMITSU_MOTHER_DENOUNCED_FRIEND</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_FGO_YORIMITSU_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_YORIMITSU_MOTHER_DENOUNCED_FRIEND</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_AGENDA_FGO_YORIMITSU_MOTHER_DENOUNCED_FRIEND</Value>
+		</Row>
+
+
+		<Row>
+			<ModifierId>AGENDA_CONTINENT_FGO_YORIMITSU_MOTHER_ATTACKED</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CONTINENT_FGO_YORIMITSU_MOTHER_ATTACKED</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_FGO_YORIMITSU_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CONTINENT_FGO_YORIMITSU_MOTHER_ATTACKED</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_FGO_YORIMITSU_CONTINENT_ATTACKED</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CONTINENT_FGO_YORIMITSU_MOTHER_PEACEFUL</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CONTINENT_FGO_YORIMITSU_MOTHER_PEACEFUL</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_FGO_YORIMITSU_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_CONTINENT_FGO_YORIMITSU_MOTHER_PEACEFUL</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_FGO_YORIMITSU_CONTINENT_PEACEFUL</Value>
+		</Row>
+		
+		
+	</ModifierArguments>
+
+
+	<Agendas>
+		<Row AgendaType="AGENDA_FGO_YORIMITSU_MOTHER" Name="LOC_AGENDA_FGO_YORIMITSU_MOTHER" Description="LOC_AGENDA_FGO_YORIMITSU_MOTHER_DESCRIPTION"/>
+	</Agendas>
+
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_FGO_YORIMITSU_MOTHER_FRIEND" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_FGO_YORIMITSU_MOTHER_DENOUNCED_FRIEND" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_CONTINENT_FGO_YORIMITSU_MOTHER_ATTACKED" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_CONTINENT_FGO_YORIMITSU_MOTHER_PEACEFUL" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_FGO_YORIMITSU" AgendaType="AGENDA_FGO_YORIMITSU_MOTHER"/>
+	</HistoricalAgendas>
+
+	<ExclusiveAgendas>
+
+
+		<Row AgendaOne="AGENDA_FGO_YORIMITSU_MOTHER" AgendaTwo="AGENDA_DEVOUT"/>
+		<Row AgendaOne="AGENDA_FGO_YORIMITSU_MOTHER" AgendaTwo="AGENDA_STANDING_ARMY"/>
+
+	</ExclusiveAgendas>
+
+	<AgendaPreferredLeaders>
+
+		<Row AgendaType="AGENDA_DEVOUT" LeaderType="LEADER_FGO_YORIMITSU" PercentageChance="30"/>
+		<Row AgendaType="AGENDA_STANDING_ARMY" LeaderType="LEADER_FGO_YORIMITSU" PercentageChance="70"/>
+
+	</AgendaPreferredLeaders>
+
+
+	<AiListTypes>
+		<Row ListType="FGO_YORIMITSU_BUILDINGS" />
+		<Row ListType="FGO_YORIMITSU_CIVICS" />
+		<Row ListType="FGO_YORIMITSU_TECHS" />
+		<Row ListType="FGO_YORIMITSU_UNITS" />
+
+	</AiListTypes>
+
+	<AiLists>
+
+		<Row ListType="FGO_YORIMITSU_BUILDINGS" LeaderType="LEADER_FGO_YORIMITSU" System="Buildings"/>
+		<Row ListType="FGO_YORIMITSU_CIVICS" LeaderType="LEADER_FGO_YORIMITSU" System="Civics"/>
+		<Row ListType="FGO_YORIMITSU_TECHS" LeaderType="LEADER_FGO_YORIMITSU" System="Technologies"/>
+		<Row ListType="FGO_YORIMITSU_UNITS" LeaderType="LEADER_FGO_YORIMITSU" System="UnitPromotionClasses"/>
+
+	</AiLists>
+
+	<AiFavoredItems>
+
+		<Row ListType="FGO_YORIMITSU_CIVICS" Item="CIVIC_DEFENSIVE_TACTICS" Favored="true"/>
+		<Row ListType="FGO_YORIMITSU_CIVICS" Item="CIVIC_DIPLOMATIC_SERVICE" Favored="true"/>
+		<Row ListType="FGO_YORIMITSU_CIVICS" Item="CIVIC_NUCLEAR_PROGRAM" Favored="true"/>
+		<Row ListType="FGO_YORIMITSU_CIVICS" Item="CIVIC_GUILDS" Favored="true"/>
+		<Row ListType="FGO_YORIMITSU_CIVICS" Item="CIVIC_GAMES_RECREATION" Favored="true"/>
+		<Row ListType="FGO_YORIMITSU_CIVICS" Item="CIVIC_COLD_WAR" Favored="true"/>
+
+		<Row ListType="FGO_YORIMITSU_TECHS" Item="TECH_CASTLES" Favored="true"/>
+		<Row ListType="FGO_YORIMITSU_TECHS" Item="TECH_ELECTRICITY" Favored="true"/>
+		<Row ListType="FGO_YORIMITSU_TECHS" Item="TECH_HORSEBACK_RIDING" Favored="true"/>
+		<Row ListType="FGO_YORIMITSU_TECHS" Item="TECH_MILITARY_TACTICS" Favored="true"/>
+		<Row ListType="FGO_YORIMITSU_TECHS" Item="TECH_COMBINED_ARMS" Favored="true"/>
+		<Row ListType="FGO_YORIMITSU_TECHS" Item="TECH_IRON_WORKINGS" Favored="true"/>
+		<Row ListType="FGO_YORIMITSU_TECHS" Item="TECH_NUCLEAR_FISSION" Favored="true"/>
+		<Row ListType="FGO_YORIMITSU_TECHS" Item="TECH_LASERS" Favored="true"/>
+
+		<Row ListType="FGO_YORIMITSU_BUILDINGS" Item="BUILDING_ELECTRONICS_FACTORY" Favored="true"/>
+		<Row ListType="FGO_YORIMITSU_BUILDINGS" Item="BUILDING_ORACLE" Favored="true"/>
+		<Row ListType="FGO_YORIMITSU_BUILDINGS" Item="BUILDING_STONEHENGE" Favored="true"/>
+		<Row ListType="FGO_YORIMITSU_BUILDINGS" Item="BUILDING_TERRACOTTA_ARMY" Favored="true"/>
+
+		<Row ListType="FGO_YORIMITSU_UNITS" Item="PROMOTION_CLASS_MELEE" Value="5"/>
+		<Row ListType="FGO_YORIMITSU_UNITS" Item="PROMOTION_CLASS_RANGED" Value="5"/>
+		<Row ListType="FGO_YORIMITSU_UNITS" Item="PROMOTION_CLASS_ANTI_CAVALRY" Value="5"/>
+		<Row ListType="FGO_YORIMITSU_UNITS" Item="PROMOTION_CLASS_LIGHT_CAVALRY" Value="5"/>
+		<Row ListType="FGO_YORIMITSU_UNITS" Item="PROMOTION_CLASS_HEAVY_CAVALRY" Value="5"/>
+		<Row ListType="FGO_YORIMITSU_UNITS" Item="PROMOTION_CLASS_SIEGE" Value="5"/>
+
+	</AiFavoredItems>
+
+	<AiListTypes>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesPeace"/>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesWonder"/>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesGreat"/>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesSpy"/>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesNuke"/>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesNukeUse"/>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesArmy"/>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesProtect"/>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesBandit"/>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesCityState"/>
+	</AiListTypes>
+	<AILists>
+
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesPeace" AgendaType="TRAIT_AGENDA_FGO_YORIMITSU_HOLY_KNIGHT_EMPEROR_EX" System="DiplomaticActions"/>
+
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesWonder" AgendaType="TRAIT_AGENDA_FGO_YORIMITSU_HOLY_KNIGHT_EMPEROR_EX" System="PseudoYields"/>
+
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesSpy" AgendaType="TRAIT_AGENDA_FGO_YORIMITSU_HOLY_KNIGHT_EMPEROR_EX" System="DiplomaticActions"/>
+
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesGreat" AgendaType="TRAIT_AGENDA_FGO_YORIMITSU_HOLY_KNIGHT_EMPEROR_EX" System="PseudoYields"/>
+
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesNuke" AgendaType="TRAIT_AGENDA_FGO_YORIMITSU_HOLY_KNIGHT_EMPEROR_EX" System="PseudoYields"/>
+
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesNukeUse" AgendaType="TRAIT_AGENDA_FGO_YORIMITSU_HOLY_KNIGHT_EMPEROR_EX" System="DiplomaticActions"/>
+
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesArmy" AgendaType="TRAIT_AGENDA_FGO_YORIMITSU_HOLY_KNIGHT_EMPEROR_EX" System="PseudoYields"/>
+
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesProtect" AgendaType="TRAIT_AGENDA_FGO_YORIMITSU_HOLY_KNIGHT_EMPEROR_EX" System="DiplomaticActions"/>
+
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesBandit" AgendaType="TRAIT_AGENDA_FGO_YORIMITSU_HOLY_KNIGHT_EMPEROR_EX" System="PseudoYields"/>
+
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesCityState" AgendaType="TRAIT_AGENDA_FGO_YORIMITSU_HOLY_KNIGHT_EMPEROR_EX" System="PseudoYields"/>
+
+	</AILists>
+
+	<AiFavoredItems>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesPeace" Item="DIPLOACTION_DECLARE_SURPRISE_WAR" Favored="true"/>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesPeace" Item="DIPLOACTION_DECLARE_FORMAL_WAR" Favored="true"/>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesPeace" Item="DIPLOACTION_DECLARE_WAR_MINOR_CIV" Favored="false"/>
+
+
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesWonder" Item="PSEUDOYIELD_WONDER" Value="50"/>
+
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_GENERAL" Value="50"/>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_ADMIRAL" Value="50"/>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_ENGINEER" Value="50"/>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_MERCHANT" Value="50"/>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_PROPHET" Value="50"/>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="50"/>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_WRITER" Value="50"/>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_ARTIST" Value="50"/>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_MUSICIAN" Value="50"/>
+
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesSpy" Item="DIPLOACTION_KEEP_PROMISE_DONT_SPY" Favored="false"/>
+
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesNuke" Item="PSEUDOYIELD_NUCLEAR_WEAPON" Value="100"/>
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesNukeUse" Item="DIPLOACTION_USE_NUCLEAR_WEAPON" Favored="true"/>
+
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesArmy" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="66"/>
+
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesArmy" Item="PSEUDOYIELD_STANDING_ARMY_VALUE" Value="50"/>
+
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesProtect" Item="DIPLOACTION_DECLARE_PROTECTORATE_WAR" Favored="true"/>
+		
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesBandit" Item="PSEUDOYIELD_CLEAR_BANDIT_CAMPS" Value="100"/>
+
+		<Row ListType="YorimitsuBerserkerAgendaAiListTypesCityState" Item="PSEUDOYIELD_INFLUENCE" Value="100"/>
+
+
+	</AiFavoredItems>
+
+
+	<RequirementSets>
+
+		<Row>
+			<RequirementSetId>YORIMITSU_UNIT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+
+		<Row>
+			<RequirementSetId>YORIMITSU_UNIT</RequirementSetId>
+			<RequirementId>YORIMITSU_UNIT_IS_MELEE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>YORIMITSU_UNIT</RequirementSetId>
+			<RequirementId>YORIMITSU_UNIT_IS_RANGED</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>YORIMITSU_UNIT</RequirementSetId>
+			<RequirementId>YORIMITSU_UNIT_IS_SIEGE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>YORIMITSU_UNIT</RequirementSetId>
+			<RequirementId>YORIMITSU_UNIT_IS_ANTI_CAVALRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>YORIMITSU_UNIT</RequirementSetId>
+			<RequirementId>YORIMITSU_UNIT_IS_LIGHT_CAVALRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>YORIMITSU_UNIT</RequirementSetId>
+			<RequirementId>YORIMITSU_UNIT_IS_HEAVY_CAVALRY</RequirementId>
+		</Row>
+
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>YORIMITSU_UNIT_IS_MELEE</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>YORIMITSU_UNIT_IS_RANGED</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>YORIMITSU_UNIT_IS_SIEGE</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>YORIMITSU_UNIT_IS_ANTI_CAVALRY</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>YORIMITSU_UNIT_IS_LIGHT_CAVALRY</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>YORIMITSU_UNIT_IS_HEAVY_CAVALRY</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		
+	</Requirements>
+
+	<RequirementArguments>
+		
+		<Row>
+			<RequirementId>YORIMITSU_UNIT_IS_MELEE</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<RequirementId>YORIMITSU_UNIT_IS_RANGED</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<RequirementId>YORIMITSU_UNIT_IS_SIEGE</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_SIEGE</Value>
+		</Row>
+		<Row>
+			<RequirementId>YORIMITSU_UNIT_IS_ANTI_CAVALRY</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_ANTI_CAVALRY</Value>
+		</Row>
+		<Row>
+			<RequirementId>YORIMITSU_UNIT_IS_LIGHT_CAVALRY</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_LIGHT_CAVALRY</Value>
+		</Row>
+		<Row>
+			<RequirementId>YORIMITSU_UNIT_IS_HEAVY_CAVALRY</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_HEAVY_CAVALRY</Value>
+		</Row>
+		
+	</RequirementArguments>
+	
+	
+</GameData>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Yorimitsu_Config_Lang -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 10/12/2018 3:30:31 PM -->
+<GameData>
+	<BaseGameText>
+
+		<Row Tag="LOC_LEADER_FGO_YORIMITSU_NAME" >
+			<Text>Minamoto no Raikō</Text>
+		</Row>
+
+
+		<Row Tag="LOC_LEADER_ABILITY_FGO_YORIMITSU_NAME" >
+			<Text>Doujigiri Yasutsuna</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_ABILITY_FGO_YORIMITSU_DESCRIPTION" >
+			<Text>
+				Each city-state that is considered to be a sovereign state +100% [ICON_Faith], can use [ICON_Faith] to purchase land military units and maritime military units.[NEWLINE]Melee, range, siege, cavalry, anti-cavalry unit +5 combat power.
+			</Text>
+		</Row>
+		
+		
+	</BaseGameText>
+	<LocalizedText>
+
+		<Row Tag="LOC_LEADER_FGO_YORIMITSU_NAME" Language="ko_KR">
+			<Text>미나모토노 라이코</Text>
+		</Row>
+
+
+		<Row Tag="LOC_LEADER_ABILITY_FGO_YORIMITSU_NAME" Language="ko_KR">
+			<Text>도지기리 야스츠나</Text>
+		</Row>
+
+		
+		<!-- NEED CONFIRM AGAIN! -->
+		<!--
+		
+		<Row Tag="LOC_LEADER_ABILITY_FGO_YORIMITSU_DESCRIPTION" Language="ko_KR">
+			<Text>
+				플레이어가 종주국인 도시 국가 1개당 신앙[ICON_Faith] +10% 보너스를 받습니다.
+			</Text>
+		</Row>
+
+		-->
+
+		<Row Tag="LOC_LEADER_FGO_YORIMITSU_NAME" Language="zh_Hans_CN">
+			<Text>源赖光</Text>
+		</Row>
+
+
+		<Row Tag="LOC_LEADER_ABILITY_FGO_YORIMITSU_NAME" Language="zh_Hans_CN">
+			<Text>童子切安纲</Text>
+		</Row>
+
+		
+		<Row Tag="LOC_LEADER_ABILITY_FGO_YORIMITSU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				每个认为您是宗主国的城邦+100%[ICON_Faith]，可以使用[ICON_Faith]购买陆地军事单位和海上军事单位。[NEWLINE]肉搏，远程，攻城，骑兵，反骑兵单位+5战斗力。
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_FGO_YORIMITSU_NAME" Language="zh_Hant_HK">
+			<Text>源賴光</Text>
+		</Row>
+
+
+		<Row Tag="LOC_LEADER_ABILITY_FGO_YORIMITSU_NAME" Language="zh_Hant_HK">
+			<Text>童子切安綱</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_ABILITY_FGO_YORIMITSU_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>
+				每個認為您是宗主國的城邦+100%[ICON_Faith]，可以使用[ICON_Faith]購買陸地軍事單位和海上軍事單位。[NEWLINE]肉搏，遠程，攻城，騎兵，反騎兵單位+5戰鬥力。
+			</Text>
+		</Row>
+
+
+
+	</LocalizedText>
+</GameData>

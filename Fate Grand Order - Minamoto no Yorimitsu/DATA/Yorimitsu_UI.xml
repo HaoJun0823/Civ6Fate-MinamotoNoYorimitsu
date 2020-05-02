@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Yorimitsu_UI -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 10/12/2018 12:36:42 PM -->
+<GameData>
+
+	<!--
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_FGO_YORIMITSU_PRIMARY</Type>
+			<Color>88,47,97,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_FGO_YORIMITSU_SECONDARY</Type>
+			<Color>249,249,249,255</Color>
+		</Row>
+	</Colors>
+
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_FGO_YORIMITSU</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_FGO_YORIMITSU_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_FGO_YORIMITSU_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+
+	-->
+
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_FGO_YORIMITSU" ForegroundImage="LEADER_FGO_YORIMITSU_NEUTRAL_2" BackgroundImage="LEADER_FGO_YORIMITSU_BACKGROUND_LOAD" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_FGO_YORIMITSU" BackgroundImage="LEADER_FGO_YORIMITSU_BACKGROUND"/>
+	</DiplomacyInfo>
+
+</GameData>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>LOC_CIVILIZATION_FGO_YORIMITSU_MOD_NAME</Name>
+    <Guid>d90bbf20-fe73-4345-b0c3-c2fe93b72fb2</Guid>
+    <ProjectGuid>e5246fba-67a4-490a-ac23-d5dcc690d4d4</ProjectGuid>
+    <ModVersion>7</ModVersion>
+    <Teaser>LOC_CIVILIZATION_FGO_YORIMITSU_MOD_SPECIAL_TEASER</Teaser>
+    <Description>LOC_CIVILIZATION_FGO_YORIMITSU_MOD_SPECIAL_DESCRIPTION</Description>
+    <Authors>LOC_CIVILIZATION_FGO_YORIMITSU_MOD_AUTHOR</Authors>
+    <SpecialThanks>LOC_CIVILIZATION_FGO_YORIMITSU_MOD_SPECIAL_THANKS</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>Fate Grand Order - Minamoto no Yorimitsu</AssemblyName>
+    <RootNamespace>Fate Grand Order - Minamoto no Yorimitsu</RootNamespace>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_FGO_YORIMITSU,Players:Expansion1_Players::LEADER_FGO_YORIMITSU,Players:Expansion2_Players::LEADER_FGO_YORIMITSU</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Yorimitsu_Config_Data"><File>DATA/Yorimitsu_Config.xml</File></UpdateDatabase><UpdateArt id="Yorimitsu_Config_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="Yorimitsu_Config_Icon"><File>DATA/Yorimitsu_Icon.xml</File></UpdateIcons><UpdateText id="Yorimitsu_Config_Text"><File>LOC/Yorimitsu_Config_Lang.xml</File></UpdateText><UpdateColors id="Yorimitsu_Config_Color"><File>DATA/Yorimitsu_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Yorimitsu_Game_Data"><Criteria>LeaderCriteria</Criteria><File>DATA/Yorimitsu_Leader.xml</File><File>DATA/Yorimitsu_UI.xml</File></UpdateDatabase><UpdateLogitechARX id="Yorimitsu_Game_ARX"><Criteria>LeaderCriteria</Criteria><File>ARX/Civ_LEADER_FGO_YORIMITSU.png</File></UpdateLogitechARX><UpdateArt id="Yorimitsu_Game_Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="Yorimitsu_Game_Icon"><Criteria>LeaderCriteria</Criteria><File>DATA/Yorimitsu_Icon.xml</File></UpdateIcons><UpdateText id="Yorimitsu_Game_Text"><Criteria>LeaderCriteria</Criteria><File>LOC/Yorimitsu_Config_Lang.xml</File><File>LOC/Yorimitsu_Game_Lang.xml</File></UpdateText><UpdateColors id="Yorimitsu_Game_Color"><Criteria>LeaderCriteria</Criteria><File>DATA/Yorimitsu_Colors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <Homepage>https://steamcommunity.com/id/HaoJun0823/</Homepage>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DATA" />
+    <Folder Include="ARX" />
+    <Folder Include="LOC" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ARX\Civ_LEADER_FGO_YORIMITSU.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DATA\Yorimitsu_Colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DATA\Yorimitsu_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DATA\Yorimitsu_Icon.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DATA\Yorimitsu_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DATA\Yorimitsu_UI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LOC\Yorimitsu_Game_Lang.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LOC\Yorimitsu_Mod_Desc.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LOC\Yorimitsu_Config_Lang.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
