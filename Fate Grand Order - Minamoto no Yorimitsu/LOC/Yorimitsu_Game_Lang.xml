@@ -170,6 +170,34 @@
 			<Text>By means of diplomatic or religious means, the value of the faith is obtained and used to purchase units to win military victories.</Text>
 		</Row>
 
+		<Row Tag="LOC_TRAIT_FGO_YORIMITSU_UNITS_ATTACK_DESCRIPTION" >
+			<Text>+5 The Yorimitsu Big Four</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_FGO_YORIMITSU_MOTHER_DECLARED_FRIEND" >
+			<Text>You and Minamoto no Raikō have become friends.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_FGO_YORIMITSU_MOTHER_DENOUNCED_FRIEND" >
+			<Text>You condemned the friend of Minamoto no Raikō.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_FGO_YORIMITSU_ATTACKED" >
+			<Text>You attacked the children of the source Minamoto no Raikō (city-state).</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_FGO_YORIMITSU_PEACEFUL" >
+			<Text>You are trying to win over Minamoto no Raikō's children (city-state).</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_FGO_YORIMITSU_MOTHER" >
+			<Text>Kind mother</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_FGO_YORIMITSU_MOTHER_DESCRIPTION" >
+			<Text>Like to declare friendship, hate condemnation and other civilizations to attack children (city-states) or cooperate with them.</Text>
+		</Row>
+
+
+
 
 	</BaseGameText>
 
@@ -513,9 +541,7 @@
 	</LocalizedText>
 	<LocalizedText>
 
-		<Row Tag="LOC_TRAIT_FGO_YORIMITSU_UNITS_ATTACK_DESCRIPTION" >
-			<Text>+5 The Yorimitsu Big Four</Text>
-		</Row>
+
 
 		<Row Tag="LOC_TRAIT_FGO_YORIMITSU_UNITS_ATTACK_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>+5 赖光四天王</Text>
@@ -526,29 +552,7 @@
 		</Row>
 
 
-		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_FGO_YORIMITSU_MOTHER_DECLARED_FRIEND" >
-			<Text>You and Minamoto no Raikō have become friends.</Text>
-		</Row>
 
-		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_FGO_YORIMITSU_MOTHER_DENOUNCED_FRIEND" >
-			<Text>You condemned the friend of Minamoto no Raikō.</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_MODIFIER_FGO_YORIMITSU_ATTACKED" >
-			<Text>You attacked the children of the source Minamoto no Raikō (city-state).</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_MODIFIER_FGO_YORIMITSU_PEACEFUL" >
-			<Text>You are trying to win over Minamoto no Raikō's children (city-state).</Text>
-		</Row>
-
-		<Row Tag="LOC_AGENDA_FGO_YORIMITSU_MOTHER" >
-			<Text>Kind mother</Text>
-		</Row>
-		<Row Tag="LOC_AGENDA_FGO_YORIMITSU_MOTHER_DESCRIPTION" >
-			<Text>Like to declare friendship, hate condemnation and other civilizations to attack children (city-states) or cooperate with them.</Text>
-		</Row>
-		
-		
 		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_FGO_YORIMITSU_MOTHER_DECLARED_FRIEND" Language="zh_Hans_CN">
 			<Text>你和源赖光成为了朋友。</Text>
 		</Row>
